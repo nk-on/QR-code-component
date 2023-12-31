@@ -10,3 +10,6 @@
     --Grayish-blue: hsl(220, 15%, 55%);
     --Dark-blue: hsl(218, 44%, 22%);
 }
+body{
+    background-color: var(--Light-gray);
+}
