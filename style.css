@@ -23,6 +23,24 @@ body {
 }
 
 .QR-code-component {
-    width: min(400px, 90%);
+    width: min(350px, 90%);
     background-color: var(--White);
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding: 30px;
+    border-radius: 20px;
+}
+.QR-code-component img{
+    border-radius: 20px;
+    width: 95%;
+}
+.text-area{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    text-align: center;
+}
+.text-area p {
+    color: var(--Grayish-blue);
 }
