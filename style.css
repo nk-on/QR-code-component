@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;400&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +12,17 @@
     --Grayish-blue: hsl(220, 15%, 55%);
     --Dark-blue: hsl(218, 44%, 22%);
 }
-body{
+
+body {
+    font-family: 'Outfit', sans-serif;
+    min-height: 100vh;
     background-color: var(--Light-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.QR-code-component {
+    width: min(400px, 90%);
+    background-color: var(--White);
 }
